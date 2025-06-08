@@ -5,13 +5,13 @@ import Property from '@/models/Property';
 import PropertyImages from '@/components/PropertyImages';
 import Link from 'next/link';
 import { FaArrowLeft } from 'react-icons/fa';
-import { convertToSerializableObject } from '@/utils/convertToObject';
+import { convertToSerializeableObject } from '@/utils/convertToObject';
 
 const PropertyPage = async ({ params }) => {
   await connectDB();
   const { id } = await params;
   const propertyDoc = await Property.findById(id).lean();
-  const property = convertToSerializableObject(propertyDoc);
+  const property = convertToSerializeableObject(propertyDoc);
 
   if (!property) {
     return (
