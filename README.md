@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Property Pulse
 
-## Getting Started
+**Property Pulse** is a personal educational project built during the _Next.js
+15 From Scratch_ course.
 
-First, run the development server:
+## 📌 About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A rental property listing web app built for learning purposes. The project
+showcases modern full-stack development with Next.js 15 and related
+technologies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Demo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🔗 [View Live Project](https://your-deployment-link.com)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔧 Key Features
 
-## Learn More
+- Google authentication (NextAuth.js)
+- Route protection and user authorization
+- Property listing CRUD
+- Multiple image upload (Cloudinary)
+- Property search
+- Internal messages with unread notifications
+- Map integration (Mapbox)
+- Property bookmarking & social sharing
+- Image gallery (Photoswipe)
+- Toast notifications and loading spinners
+- Responsive design (Tailwind CSS)
+- Custom 404 page
+- Server Actions (App Router)
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js 15 (App Router + Server Actions)
+- React
+- Tailwind CSS
+- MongoDB & Mongoose
+- NextAuth.js
+- Cloudinary
+- Mapbox & React Map GL
+- Photoswipe
+- React Toastify, React Share, React Icons, etc.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is for learning purposes only and not intended for production use.
